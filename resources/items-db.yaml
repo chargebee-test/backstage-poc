@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: items-db
+  description: Stores product catalog details
+spec:
+  type: database
+  owner: subscriptions-group
+  system: product-catalog
