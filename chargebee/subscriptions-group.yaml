@@ -9,7 +9,7 @@ spec:
     # Intentional no displayName for testing
     email: squad-subwalkers@chargebee.com
     picture: https://www.chargebee.com/
-  parent: backstage
+  parent: chargebee
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
