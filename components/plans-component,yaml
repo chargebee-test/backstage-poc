@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plans
+  description: Plans Microservice
+  tags:
+    - java
+    - data
+spec:
+  type: service
+  lifecycle: ga
+  owner: subscriptions-group
+  system: items
+  dependsOn: ['resource:items-db']
