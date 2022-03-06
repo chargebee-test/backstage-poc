@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: chargebee
+  description: Chargebee subscription Management
+  links:
+    - url: https://www.chargebee.com/
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: Chargebee
+    email: support@chargebee.com
+    picture: https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/13257/Tl9pR7dYT6GEUrlX3Amy
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: engineering-groups
+  description: A collection of all Chargebee engineering groups
+spec:
+  targets:
+    - ./subscriptions-group.yaml
