@@ -5,4 +5,4 @@ metadata:
   description: Product Catalog
 spec:
   owner: subscriptions-group
-  domain: product-catalog
+  domain: product-catalog-domain
